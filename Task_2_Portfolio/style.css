@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.logo h1{
+    font-size: 50px;
+}
+.nav-links{
+    text-align: center;
+}
+.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+.nav-links ul{
+    display: flex;
+}
+.nav-links li{
+    list-style: none;
+    margin-right: 25px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+main{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+section{
+    text-align: center;
+    margin-top: 70px;
+}
+.about-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.skills-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+h1{
+    font-weight: bold;
+    color: rgb(79, 79, 209);
+    font-size: 30px;
+    font-family: sans-serif;
+}
+h2{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+p{
+    color: gray;
+    font-family: sans-serif;
+}
+.content h1{
+    color: black;
+    font-size: 60px;
+}
+.content span{
+    color: rgb(65, 65, 197);
+}
+button{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    background-color: burlywood;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+img{
+    border-radius: 10px;
+    height: 400px;
+}
+footer{
+    text-align: center;
+    background-color: rgb(180, 212, 202);
+    padding: 30px;
+    font-family: sans-serif;
+}
+@media only screen and (max-width: 768px) {
+    nav{
+        display: block;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    main img{
+        margin-top: 10px;
+    }
+    section{
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+       align-items:center;
+    }
+    .about-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .skills-section{
+        display: flex;
+        flex-direction: column;
+    }
+  }
